@@ -13,6 +13,6 @@ nodes = [
 ]
 
 for name in nodes:
-    parts = name.split()
-    name = parts[0].split(";")[0]
+    dalas = name.split()
+    name = dalas[0].split(";")[0]
     print(name)
